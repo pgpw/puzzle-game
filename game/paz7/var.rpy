@@ -22,7 +22,7 @@
 #-------------------------------------------- ПЕРЕМЕННЫЕ
     pazgame=Pazgame()
 #-------------------------------------------- КОНСТАНТЫ
-    ALLPAZFRAG=[]
+    ALLPAZFRAG=[0]
     for n,i in enumerate(renpy.list_files()):
         if i.startswith("paz7/img/"):
             ALLPAZFRAG.append(pazgame.pazcreate(i,n))
